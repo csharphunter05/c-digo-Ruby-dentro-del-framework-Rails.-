@@ -1,3 +1,8 @@
 <h1>Bienvenido</h1> 
 <p>Página de inicio</p> 
 <p>UNAN-León</p> 
+<ul>
+  <% @dias_semana.each do |dia| %>
+    <li><%= dia %></li>
+  <% end %>
+</ul>
